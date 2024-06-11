@@ -34,7 +34,7 @@ function montoTotal(){
 
     let total = subTotal - (subTotal*descuento/100);
     //console.log(total)
-    resultado.textContent = total;
+    resultado.textContent = 'El total a pagar es: '+total + ' con el descuento del '+descuento+'%.';
 }
 
 
